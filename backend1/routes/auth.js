@@ -37,16 +37,7 @@ router.post('/createuser', [
         email: req.body.email,
         password: secPass
       })
-      // .then(user => res.json(user))
-      // .catch(err=>{console.log(err)
-      // res.json({error:'Please enter a unique value for email', message: err.message})})
      
-      // router.get('/',(req,res)=>{
-//      console.log(req.body);
-//      const user = User(req.body);
-//      user.save();
-  //    res.send(req.body);
-   // res.json({"Nice" : "Welcome"})  //When a new user comes, then show this msg
    const data = {
     user: {
       id: user.id

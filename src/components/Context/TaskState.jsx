@@ -5,20 +5,7 @@ import { useState } from 'react';
 
 const TaskState = (props) => {
 const host = "http://localhost:5000"
-  // const s1 = {
-  //   "name": 'Suraj',
-  //   "class": '7a'
-  // };
-  
-  //  const [state, setState] = useState(s1)
-  //  const update = () =>{
-  //   setTimeout (() => {
-  //     setState({
-  //       "name": 'Suraj Gupta',
-  //       "class": '10a'
-  //     })
-  //   }, 1000);
-  //  }
+ 
 const tasksInitials = []
 
 const [tasks, setTasks ] = useState(tasksInitials)

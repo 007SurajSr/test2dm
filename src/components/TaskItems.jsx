@@ -22,11 +22,7 @@ const TaskItems = (props) => {
 
             <i className="fa-solid fa-pen-to-square mx-2" title="Update task" onClick={()=>{updateTask(task);}}></i>
 
-            <i className={`fa-regular fa-circle-check ${task.done ? "green" : "blue"}`} 
-                  // Call completeTodo with the todo id
-                  aria-label="Complete todo"
-                  title="Complete todo"
-                ></i>
+            <i className= "fa-regular fa-circle-check"  aria-label="Complete todo" title="Complete todo"></i>
           
           </div>
           <p className="card-text"> {task.description}</p>
